@@ -25,11 +25,11 @@ const App: React.FC = () => {
         {config.languages.ru.enabled && (
           <button onClick={() => changeLanguage('ru')}>{config.languages.ru.flag}</button>
         )}
-        {config.languages.en.enabled && (
-          <button onClick={() => changeLanguage('en')}>{config.languages.en.flag}</button>
-        )}
         {config.languages.bg.enabled && (
           <button onClick={() => changeLanguage('bg')}>{config.languages.bg.flag}</button>
+        )}
+        {config.languages.en.enabled && (
+          <button onClick={() => changeLanguage('en')}>{config.languages.en.flag}</button>
         )}
       </div>
 

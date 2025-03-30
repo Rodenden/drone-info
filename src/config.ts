@@ -6,7 +6,7 @@ export const config = {
     },
     en: {
       enabled: true,
-      flag: '🇺🇸'
+      flag: '🇬🇧'
     },
     bg: {
       enabled: true,

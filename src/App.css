@@ -2,6 +2,7 @@
   min-height: 100vh;
   position: relative;
   padding: 2%;
+  padding-bottom: calc(2% + 5rem);
   font-family: Arial, sans-serif;
 }
 
@@ -35,6 +36,7 @@
   display: flex;
   flex-direction: column;
   gap: 5%;
+  padding-bottom: 5rem;
 }
 
 .pilot-section {
@@ -68,6 +70,7 @@
 
 .contacts-section {
   padding: 2rem 0;
+  margin-bottom: 4rem;
 }
 
 .contacts-section h2 {
@@ -279,6 +282,7 @@
   .content {
     padding: 0.5rem;
     gap: 1.5rem;
+    padding-bottom: 4rem;
   }
 
   .contacts-container {
@@ -386,5 +390,14 @@
 
   .pilot-section {
     padding-top: 3rem;
+  }
+
+  .contacts-section {
+    margin-bottom: 3rem;
+  }
+
+  .app {
+    padding: 2%;
+    padding-bottom: calc(2% + 4rem);
   }
 }
